@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.ui.tests.ModalDialogsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-30T19:04:09" hostname="LAPTOP-06VBF7Q5" time="10.971">
+  <properties/>
+  <testcase name="01. Проверка формы" classname="demo.ui.tests.ModalDialogsTest" time="6.627"/>
+  <testcase name="02. Проверка 'Small modal'" classname="demo.ui.tests.ModalDialogsTest" time="3.449"/>
+  <testcase name="03. Проверка 'Large modal'" classname="demo.ui.tests.ModalDialogsTest" time="0.844"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Work\demo-project\build\downloads\1696100649761_17488_1
+[Test worker] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_117
+[Test worker] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_117 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_117)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\volod\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 8247
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1696100653.755][WARNING]: This version of ChromeDriver has not been tested with Chrome version 117.
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+сент. 30, 2023 10:04:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 113
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=117.0.5938.92 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.15.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.9.1 build revision: eb2032df7f
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (58b0b81b4a2c5c37e6cd235a53981952)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (58b0b81b4a2c5c37e6cd235a53981952),proxy=null,downloadsFolder=C:\Work\demo-project\build\downloads\1696100649761_17488_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Webdriver has been closed meanwhile. Let's re-create it.
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Work\demo-project\build\downloads\1696100649761_17488_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (58b0b81b4a2c5c37e6cd235a53981952)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 528 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=C:\Work\demo-project\build\downloads\1696100649761_17488_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Work\demo-project\build\downloads\1696100656780_17488_1
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 20722
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1696100657.470][WARNING]: This version of ChromeDriver has not been tested with Chrome version 117.
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+сент. 30, 2023 10:04:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: 113
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=117.0.5938.92 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.15.0
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.9.1 build revision: eb2032df7f
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (9a0a48b39d6bec864e5bcbdcc8a0293d)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (9a0a48b39d6bec864e5bcbdcc8a0293d),proxy=null,downloadsFolder=C:\Work\demo-project\build\downloads\1696100656780_17488_1] in 1 [size=1]
+]]></system-err>
+</testsuite>
